@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce con Microservicios</title>
+</head>
+<body>
+    <h1>Productos Disponibles</h1>
+    <ul>
+        {% for producto_id, producto in productos.items() %}
+        <li>{{ producto.nombre }} - Precio: ${{ producto.precio }} - Stock: {{ producto.stock }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Crear Pedido</h2>
+    <form action="/crear_pedido" method="post">
+        <input type="text" name="usuario_id" placeholder="ID de Usuario" required>
+        <input type="text" name="producto_id" placeholder="ID de Producto" required>
+        <input type="number" name="cantidad" placeholder="Cantidad" required>
+        <button type="submit">Hacer Pedido</button>
+    </form>
+</body>
+</html>
