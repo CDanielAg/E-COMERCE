@@ -104,6 +104,3 @@ Para probar los endpoints, puedes utilizar herramientas como **Postman** o **cUR
 - **RabbitMQ**: Accede al panel de administración de RabbitMQ en `http://localhost:15672`. El usuario y contraseña por defecto son `guest` / `guest`.
 - **Orden de Ejecución**: Ejecuta primero **RabbitMQ**, luego cada microservicio en una terminal separada.
 - **Aislamiento**: Es altamente recomendable usar un **entorno virtual** (`venv`) para evitar conflictos de versiones de dependencias.
-
-Si tienes algún problema al correr el proyecto o necesitas más información, no dudes en contactarme.
-
