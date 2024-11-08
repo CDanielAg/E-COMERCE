@@ -21,7 +21,7 @@ Este proyecto es una implementación de un sistema de **e-commerce** basado en u
 ## Instalación
 1. **Clonar el repositorio**:
    ```sh
-   git clone <URL_DEL_REPOSITORIO>
+   git clone (https://github.com/CDanielAg/E-COMERCE/)
    cd ecommerce_microservicios
    ```
 
